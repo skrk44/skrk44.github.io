@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Skrk's Coffee Stand official</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
+  <link rel="stylesheet" href="style.css">
+  <script src="https://unpkg.com/vue-router/dist/vue-router.js"></script>
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <header>
+    <h1>Skrk's Coffee Stand</h1>
+    <vue-typer :text='["Arya Stark","Jon Snow","Daenerys Targaryen","Melisandre","Tyrion Lannister"]' :repeat='Infinity' :shuffle='false' initial-action='typing' :pre-type-delay='70' :type-delay='70' :pre-erase-delay='2000' :erase-delay='250' erase-style='clear' :erase-on-complete='false' caret-animation='solid'></vue-typer>
+  </header>
+
+  <main>
+    <!--ul.contents>li.animationTarge*3>img[src="football$.jpg"]+.contentsText>h2{Dummy Title}+p{ここに文章が入ります。ここに文章が入ります。ここに文章が入ります。} --->
+    <ul class="contents">
+      <li class="animationTarget">
+        <img src="img/coffee_1.jpg" alt="">
+        <div class="contentsText">
+          <h2>Concept</h2>
+          <p>
+            こだわりのコーヒーを日常に。<br>
+            そしてコーヒーで毎日を笑顔に。
+          </p>
+        </div>
+      </li>
+
+      <li class="animationTarget">
+        <img src="img/coffee_2.jpg" alt="">
+        <div class="contentsText">
+          <h2>Beans</h2>
+          <p>
+            世界各国、選りすぐりの豆を現地調達。<br>
+            豆によってさまざまな味の違いを楽しめます。
+          </p>
+        </div>
+      </li>
+
+      <li class="animationTarget">
+        <img src="img/coffee_3.jpg" alt="">
+        <div class="contentsText">
+          <h2>Roast</h2>
+          <p>
+            焙煎はすべて自家焙煎。<br>
+            いつでも引き立てを提供します。
+          </p>
+        </div>
+      </li>
+
+      <li class="animationTarget">
+        <img src="img/coffee_5.jpg" alt="">
+        <div class="contentsText">
+          <h2>Drip</h2>
+          <p>
+            当店のコーヒーのはすべてハンドドリップ。<br>
+            不定期でワークショップも開催。
+                </p>
+        </div>
+      </li>
+    </ul>
+  </main>
+  <script src="https://unpkg.com/vue-typer/dist/vue-typer.min.js"></script>
+</body>
+</html>
