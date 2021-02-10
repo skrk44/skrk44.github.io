@@ -1,6 +1,3 @@
-var VueTyperPlugin = window.VueTyper.default
-Vue.use(VueTyperPlugin)
-
 const targetElement = document.querySelectorAll(".animationTarget");
 console.log("画面の高さ",window.innerHeight)
 document.addEventListener("scroll",function() {
@@ -12,4 +9,5 @@ document.addEventListener("scroll",function() {
   }
 })
 
-
+var VueTyperPlugin = window.VueTyper.default
+Vue.use(VueTyperPlugin)
