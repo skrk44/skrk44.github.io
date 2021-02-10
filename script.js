@@ -8,6 +8,3 @@ document.addEventListener("scroll",function() {
     }
   }
 })
-
-var VueTyperPlugin = window.VueTyper.default
-Vue.use(VueTyperPlugin)
