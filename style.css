@@ -22,7 +22,7 @@ header {
 }
 
 header h1 {
-  font-size: 70px;
+  font-size: 6vw;
   font-weight: bold;
   margin-bottom: 60px;
   white-space: nowrap;
@@ -111,10 +111,26 @@ main .contents li.show img {
   transition: 2s .4s;
 }
 
-@media screen and (max-width:415px) {
+@media screen and (max-width:1045px) {
 
   header h1 {
-    font-size: 8vw;
+    font-size: 6vw;
+  }
+
+  .contents img {
+    padding: 3.0vw;
+  }
+
+  .contentsText {
+    padding: 3.0vw;
+  }
+
+}
+
+@media screen and (max-width:414px) {
+
+  header h1 {
+    font-size: 6vw;
   }
 
   .contents h2 {
