@@ -50,11 +50,11 @@ main .contents li.show img {
   margin-top: 200px;
 }
 
-.contents li:nth-of-type(odd) .contentsText {
+.contents li:nth-of-type(even) .contentsText {
   right: 0;
 }
 
-.contents li:nth-of-type(even) .contentsText {
+.contents li:nth-of-type(odd) .contentsText {
   align-items: flex-start;
 }
 
