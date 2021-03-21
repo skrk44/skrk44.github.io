@@ -2,7 +2,7 @@
 
 body {
   font-family: serif;
-  background-color: #333333;
+  background-color: #002233;
   color: #ffffff;
 }
 
@@ -80,7 +80,7 @@ main .contents li.show img {
   font-size: 50px;
   font-weight: bold;
   white-space: nowrap;
-  background-color: rgba(20,20,20,.8);
+  background-color: rgba(51,43,0,.8);
   padding: 10px 20px;
   line-height: 1.4;
   letter-spacing: .05em;
