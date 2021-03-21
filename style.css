@@ -58,12 +58,12 @@ main .contents li.show img {
   align-items: flex-start;
 }
 
-.contents li:nth-of-type(odd) img {
+.contents li:nth-of-type(even) img {
   transform: translate(-15px,15px);
 }
 
 
-.contents li:nth-of-type(even) img {
+.contents li:nth-of-type(odd) img {
   margin-left: auto;
   transform: translate(15px,15px);
 }
